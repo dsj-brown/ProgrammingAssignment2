@@ -6,7 +6,7 @@
 ## Pass a list into the function makeCacheMatrix() and assign to a local object
 ## e.g. myMatrix <- makeCacheMatrix(c(5/8, -1/8, -7/8, 3/8))
 ## 'm1' and 'm2' are inputs
-## 'im' is the  
+## 'im' is where the inverse matrix is stored.
 
 makeCacheMatrix <- function(m1 = numeric()) {
         m1 <- matrix(unlist(m1), nrow = sqrt(length(m1)))
